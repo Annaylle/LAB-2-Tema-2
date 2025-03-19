@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscoverWorld</title>
+    
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo DiscoverWorld" width="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <h1 class="navbar-text mx-auto">DiscoverWorld</h1>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Despre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#articles">Articole</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <section class="banner">
+        <div class="container">
+            <h2>Inspiră-te din aventurile noastre și planifică-ți următoarea călătorie.</h2>
+            <p></p>
+        </div>
+    </section>
+
+   
+    <section id="about" class="content text-center bg-white shadow-sm rounded container mt-4">
+        <h2>Despre Noi</h2>
+        <p>Suntem pasionați de călătorii și împărtășim experiențele noastre din jurul lumii.</p>
+    </section>
+
+
+    <section id="articles" class="content container">
+        <h2 class="text-center mb-4">Articole Recente</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="alpi.jpg" class="card-img-top" alt="Imagine Alpi" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">Aventura în Alpi</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">O călătorie prin munți</h6>
+                        <p class="card-text">Descoperă traseele uimitoare din Alpi și locurile de neuitat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="medieval.jpg" class="card-img-top" alt="Imagine oraș medieval" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">Orașele medievale din Europa</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Înapoi în timp</h6>
+                        <p class="card-text">Vizitează cele mai frumoase orașe medievale din Europa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bali.jpg" class="card-img-top" alt="Imagine Bali" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">Relaxare în Bali</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">O insulă de vis</h6>
+                        <p class="card-text">Explorăm plajele, templele și cultura unică din Bali.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="content container mb-4">
+        <h2 class="text-center">Contactează-ne</h2>
+        <form class="mt-4">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nume" name="nume" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subiect" name="subiect" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" placeholder="Mesaj" name="mesaj" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Trimite</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DiscoverWorld - Toate drepturile rezervate</p>
+            <a href="#" class="text-white">Termeni și condiții</a> | 
+            <a href="#" class="text-white">Politica de confidențialitate</a>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
